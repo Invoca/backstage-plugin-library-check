@@ -978,9 +978,9 @@
     tslib "^2.2.0"
 
 "@azure/identity@^4.0.0":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@azure/identity/-/identity-4.0.1.tgz#16a885d384fd06447a21da92c08960df492fe91e"
-  integrity sha512-yRdgF03SFLqUMZZ1gKWt0cs0fvrDIkq2bJ6Oidqcoo5uM85YMBnXWMzYKK30XqIT76lkFyAaoAAy5knXhrG4Lw==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@azure/identity/-/identity-4.2.1.tgz#22b366201e989b7b41c0e1690e103bd579c31e4c"
+  integrity sha512-U8hsyC9YPcEIzoaObJlRDvp7KiF0MGS7xcWbyJSVvXRkC/HXo1f0oYeBYmEvVgRfacw7GHf6D6yAoh9JHz6A5Q==
   dependencies:
     "@azure/abort-controller" "^1.0.0"
     "@azure/core-auth" "^1.5.0"
@@ -989,8 +989,8 @@
     "@azure/core-tracing" "^1.0.0"
     "@azure/core-util" "^1.3.0"
     "@azure/logger" "^1.0.0"
-    "@azure/msal-browser" "^3.5.0"
-    "@azure/msal-node" "^2.5.1"
+    "@azure/msal-browser" "^3.11.1"
+    "@azure/msal-node" "^2.9.2"
     events "^3.0.0"
     jws "^4.0.0"
     open "^8.0.0"
@@ -1004,24 +1004,24 @@
   dependencies:
     tslib "^2.2.0"
 
-"@azure/msal-browser@^3.5.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-3.10.0.tgz#8925659e8d1a4bd21e389cca4683eb52658c778e"
-  integrity sha512-mnmi8dCXVNZI+AGRq0jKQ3YiodlIC4W9npr6FCB9WN6NQT+6rq+cIlxgUb//BjLyzKsnYo+i4LROGeMyU+6v1A==
+"@azure/msal-browser@^3.11.1":
+  version "3.17.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-browser/-/msal-browser-3.17.0.tgz#dee9ccae586239e7e0708b261f7ffa5bc7e00fb7"
+  integrity sha512-csccKXmW2z7EkZ0I3yAoW/offQt+JECdTIV/KrnRoZyM7wCSsQWODpwod8ZhYy7iOyamcHApR9uCh0oD1M+0/A==
   dependencies:
-    "@azure/msal-common" "14.7.1"
+    "@azure/msal-common" "14.12.0"
 
-"@azure/msal-common@14.7.1":
-  version "14.7.1"
-  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-14.7.1.tgz#b13443fbacc87ce2019a91e81a6582ea73847c75"
-  integrity sha512-v96btzjM7KrAu4NSEdOkhQSTGOuNUIIsUdB8wlyB9cdgl5KqEKnTonHUZ8+khvZ6Ap542FCErbnTyDWl8lZ2rA==
+"@azure/msal-common@14.12.0":
+  version "14.12.0"
+  resolved "https://registry.yarnpkg.com/@azure/msal-common/-/msal-common-14.12.0.tgz#844abe269b071f8fa8949dadc2a7b65bbb147588"
+  integrity sha512-IDDXmzfdwmDkv4SSmMEyAniJf6fDu3FJ7ncOjlxkDuT85uSnLEhZi3fGZpoR7T4XZpOMx9teM9GXBgrfJgyeBw==
 
-"@azure/msal-node@^2.5.1":
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-2.6.4.tgz#457bd86a52461178ab2d1ba3d9d6705d95b2186e"
-  integrity sha512-nNvEPx009/80UATCToF+29NZYocn01uKrB91xtFr7bSqkqO1PuQGXRyYwryWRztUrYZ1YsSbw9A+LmwOhpVvcg==
+"@azure/msal-node@^2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@azure/msal-node/-/msal-node-2.9.2.tgz#e6d3c1661012c1bd0ef68e328f73a2fdede52931"
+  integrity sha512-8tvi6Cos3m+0KmRbPjgkySXi+UQU/QiuVRFnrxIwt5xZlEEFa69O04RTaNESGgImyBBlYbo2mfE8/U8Bbdk1WQ==
   dependencies:
-    "@azure/msal-common" "14.7.1"
+    "@azure/msal-common" "14.12.0"
     jsonwebtoken "^9.0.0"
     uuid "^8.3.0"
 
@@ -2582,14 +2582,6 @@
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.3.tgz#6418d3ece63b13d14e32d44ec4db0f8866b0b1c9"
   integrity sha512-3YtYRKLNeRaSCzKSikNFoemesacDoEY0UwZAq7lnzCCpiCpSCfg7UA4y7wfjadFFU9Pd6nckUg2BzOk9keL15w==
-  dependencies:
-    "@backstage/types" "^1.1.1"
-    serialize-error "^8.0.1"
-
-"@backstage/errors@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.4.tgz#2ba79c6308e87b0de99edf499e1c82477d3d6e8a"
-  integrity sha512-JBhKn9KwZTzp/AaOC0vBncKCM1vI9Z8rKKyr9vj3wt3SSgCnDPxNwVz7SlXa2Rc9TOQq0Yk3olkmQE9U+S5uWg==
   dependencies:
     "@backstage/types" "^1.1.1"
     serialize-error "^8.0.1"
@@ -9940,6 +9932,11 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.0.tgz#d774355e41f372d5350a4d0714abb48194a489c3"
   integrity sha512-t7dhREVv6dbNj0q17X12j7yDG4bD/DHYX7o5/DbDxobP0HnGPgpRz2Ej77aL7TZT3DSw13fqUTj8J4mMnqa7WA==
 
+"@types/lodash@^4.17.0":
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.5.tgz#e6c29b58e66995d57cd170ce3e2a61926d55ee04"
+  integrity sha512-MBIOHVZqVqgfro1euRDWX7OO0fBVUUMrN6Pwm8LQsz8cWhEpihlvR70ENj3f40j58TNxZaWv2ndSkInykNBBJw==
+
 "@types/long@^4.0.0":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@types/long/-/long-4.0.2.tgz#b74129719fc8d11c01868010082d483b7545591a"
@@ -10999,7 +10996,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
 "app@link:packages/app":
   version "0.0.0"
   dependencies:
-    "@anakz/backstage-plugin-library-check" "0.0.4"
+    "@anakz/backstage-plugin-library-check" "0.1.0"
     "@backstage/app-defaults" "^1.5.0"
     "@backstage/catalog-model" "^1.4.4"
     "@backstage/cli" "^0.25.2"
